@@ -72,7 +72,7 @@ public class MakeChange {
 
 	private static void printGoodbye() {
 		// TODO Auto-generated method stub
-		System.out.println("End of sale. Goodbye!");
+		System.out.println("Powering down. Goodbye!");
 		
 	}
 
@@ -177,7 +177,6 @@ public class MakeChange {
 				System.out.println("Unauthorized access! Supervisor code required. ");
 				break;
 			case 3:
-				System.out.println("Logging out! Goodbye! ");
 				return true;
 			default:
 				System.out.println("Invalid option! Please select numbers displayed. ");
